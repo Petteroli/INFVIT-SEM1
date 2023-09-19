@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave1</title>
+    <style>
+body {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    @media screen and (max-width: 500px) {
+        height:100px;
+        width:100px;
+    }
+}
+
+#bilder {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+.t-skjorteTekst {
+    border: 2px solid red;
+
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
+    }
+}
+.andreSider {
+    border: 2px solid orangered;
+    font-size: 40px;
+    bottom: 0;
+    left: 0;
+
+    @media screen and (max-width: 500px) {
+        font-size: 10px;
+    }
+
+
+}
+h1 {
+    font-size:  60px;
+    text-align: center;
+
+    @media screen and (max-width: 500px) {
+        font-size: 30px;
+}
+}
+ 
+
+
+    </style>
+</head>
+<body>
+    <h1>T-skjorter</h1>
+    <div id="bilder">
+        <img src="/bilder/pepsi.jpeg" alt="Pepesi t-skjorte" height="200" width="200" >
+        <b class="t-skjorteTekst">pepsi t-skjorte</b>
+        <img src="/bilder/elias-t-skjorte.jpg" alt="Elias-t-skjorte" height="200" width="200">
+        <b class="t-skjorteTekst">elias-t-skjorte</b>
+        <img src="/bilder/t-skjorte.jpeg" alt="Felleskjøpet t-skjorte" height="200" width="200">
+        <b class="t-skjorteTekst">felleskjøpet t-skjorte</b>
+        <img src="/bilder/walter.png" alt="heisenberg t-skjorte" height="200" width="200">
+        <b class="t-skjorteTekst">heisenberg t-skjorte</b>
+        <img src="/bilder/Protector-T-Shirt.jpeg" alt="hunde t-skjorte" height="200" width="200">
+        <b class="t-skjorteTekst">hunde t-skjorte</b>
+    </div>
+
+    <a class="andreSider" href="/priser.html">Priser</a>
+    
+    <a class="andreSider" href="/andre_produkter.html">Andre produkter</a>
+  
+
+</body>
+</html>
