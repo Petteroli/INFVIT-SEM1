@@ -10,37 +10,73 @@
           text-align: center;
           margin-left: auto;
           margin-right: auto;
-        
-          
-    
+          padding: 100px;
          }
 
         h3 {
             font-size: 40px;
             text-align: center;
+            padding: 50px;
 
             @media screen and (max-width: 500px) {
             font-size: 30px;
           }
         }
+
+        #link:hover {
+          opacity: 50%;
+        }
+
         #link {
         border: 1px red;
         background-color: yellow;
         font-size: 40px;
-        text-align: center;     
+        text-align: center;    
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 45px;
 
         @media screen and (max-width: 500px) {
             font-size: 25px;
           }
         } 
+        a {
+          text-decoration: none;
+        }
+
+      #footer{
+      left: 50%;
+      position: fixed; 
+      transform: translateX(-50%);
+      bottom: 0; 
+      
+      @media screen and (max-width: 500px) {
+        font-size: 10px;
+    }
+        }
+
+        #banner {
+    position: sticky;
+    top: 20px;
+    background-color: rgb(235, 80, 80);
+    font-size: 25px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+#banner:hover {
+    opacity: 50%;
+}
         </style>
         </head>
         <body>
+          <div id="banner">
+            <a href="/andre_produkter.html">🏠</a>
+        </div>
           <div id="link">
         <a  href="/index.html">Tilbake</a>
       </div>
-
-        <h3>Andre produkter</h3>
+        <header><h3>Andre produkter</h3></header>
 
          <div  id="tabell"> 
         <table>
@@ -61,6 +97,13 @@
         </table>
         
       </div>  
+
+      
+      <footer>
+        <p id="footer">kontakt oss på: 42000984</p>
+      </footer>
+    
+
         </body>
         </html>
 </html>

@@ -10,6 +10,7 @@ body {
     flex-direction: column ;
     justify-content: center;
     align-items: center;
+    background-color: rgb(208, 191, 224);
 }
 
 img {
@@ -28,7 +29,7 @@ img {
 
 .t-skjorteTekst {
     border: 2px solid red;
-
+    padding: 5px;
     @media screen and (max-width: 500px) {
         font-size: 12px;
     }
@@ -38,28 +39,64 @@ img {
     font-size: 40px;
     bottom: 0;
     left: 0;
+    padding: 1px;
 
     @media screen and (max-width: 500px) {
         font-size: 10px;
     }
-
-
 }
+
+.andreSider:hover {
+    opacity: 50%;
+}
+
+#link {
+    background-color: aliceblue;
+}
+
 h1 {
     font-size:  60px;
     text-align: center;
+    font-family: minecraft;
 
     @media screen and (max-width: 500px) {
         font-size: 30px;
 }
 }
  
+a {
+    text-decoration: none;
+}
 
+footer {
+        @media screen and (max-width: 500px) {
+        font-size: 10px;
+    }
+}
+
+#banner {
+    position: sticky;
+    top: 20px;
+    background-color: rgb(235, 80, 80);
+    font-size: 25px;
+    
+}
+
+#banner:hover {
+    opacity: 50%;
+}
 
     </style>
+
 </head>
+
 <body>
+    <div id="banner">
+        <a href="index.html">🏠</a>
+    </div>
+    <header>
     <h1>T-skjorter</h1>
+    </header>
     <div id="bilder">
         <img src="/bilder/pepsi.jpeg" alt="Pepesi t-skjorte" height="200" width="200" >
         <b class="t-skjorteTekst">pepsi t-skjorte</b>
@@ -73,10 +110,13 @@ h1 {
         <b class="t-skjorteTekst">hunde t-skjorte</b>
     </div>
 
+    <div id="link">
     <a class="andreSider" href="/priser.html">Priser</a>
-    
     <a class="andreSider" href="/andre_produkter.html">Andre produkter</a>
-  
+    </div>
+    <footer>
+        <p>kontakt oss på: 42000984 </p>
+    </footer>
 
 </body>
 </html>
