@@ -10,16 +10,23 @@
           text-align: center;
           margin-left: auto;
           margin-right: auto;
-          padding: 100px;
+          padding: 30px;
+          justify-content: center;
+          align-items: center;
+
+          @media screen and (max-width: 500px) {
+            padding: 10px;
+            font-size: 7px;
+          } 
          }
 
         h3 {
-            font-size: 40px;
+            font-size: 20px;
             text-align: center;
             padding: 50px;
 
             @media screen and (max-width: 500px) {
-            font-size: 30px;
+            font-size: 15px;
           }
         }
 
@@ -30,14 +37,12 @@
         #link {
         border: 1px red;
         background-color: yellow;
-        font-size: 40px;
+        font-size: 20px;
         text-align: center;    
-        margin-left: 300px;
-        margin-right: 300px;
-        margin-top: 45px;
+        margin-top: 15px;
 
         @media screen and (max-width: 500px) {
-            font-size: 25px;
+            font-size: 10px;
           }
         } 
         a {
@@ -59,9 +64,17 @@
     position: sticky;
     top: 20px;
     background-color: rgb(235, 80, 80);
-    font-size: 25px;
-    margin-left: 700px;
-    margin-right: 700px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 10px;
+    }
+    
 }
 
 #banner:hover {
@@ -74,7 +87,7 @@
             <a href="/andre_produkter.html">🏠</a>
         </div>
           <div id="link">
-        <a  href="/index.html">Tilbake</a>
+        <a  href="./index.html">Tilbake</a>
       </div>
         <header><h3>Andre produkter</h3></header>
 

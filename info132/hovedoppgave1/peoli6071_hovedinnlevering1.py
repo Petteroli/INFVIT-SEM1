@@ -48,7 +48,7 @@ def innskudd(nySaldoP):
     global sisteEndringer
     saldo += nySaldoP
     sisteEndringer.append(f"+{nySaldoP}")
-    if saldo > 1000000:
+    if saldo > 1000000 and rentesats == 0.01:
         rentesats = 0.02
         print("Gratulerer, du får bonusrente!")
     print(f'saldoen er {saldo}')
@@ -60,7 +60,7 @@ def uttak(antall):
     sisteEndringer.append(f"-{antall}")
     if antall <= saldo:
         saldo -= antall
-        if saldo < 1000000:
+        if saldo < 1000000 and rentesats == 0.02:
             rentesats = 0.01
             print("Du har nå ordinær rente.")
         print(f'saldoen er {saldo}')
@@ -121,14 +121,15 @@ while True:
         break
     else:
         print("Ugyldig valg. Prøv igjen.")
-
 #oppgave 4
 import random
 
-def tilfeldigeTall():
+def treTilfeldigeSifre():
+    
+    sifre = [random.randint(1, 9) for _ in range(3)]
+    sifre.sort()
+    resultat = int("".join(map(str, sifre)))
 
-    tilfeldig = random.sample(range(1,9), 3)
-    tilfeldig.sort()
-    print(tilfeldig)
+    return resultat
 
-tilfeldigeTall()
+print(treTilfeldigeSifre())

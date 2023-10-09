@@ -10,7 +10,7 @@ def innskudd(nySaldoP):
     global sisteEndringer
     saldo += nySaldoP
     sisteEndringer.append(f"+{nySaldoP}")
-    if saldo > 1000000:
+    if saldo > 1000000 and rentesats == 0.01:
         rentesats = 0.02
         print("Gratulerer, du får bonusrente!")
     print(f'saldoen er {saldo}')
@@ -22,7 +22,7 @@ def uttak(antall):
     sisteEndringer.append(f"-{antall}")
     if antall <= saldo:
         saldo -= antall
-        if saldo < 1000000:
+        if saldo < 1000000 and rentesats == 0.02:
             rentesats = 0.01
             print("Du har nå ordinær rente.")
         print(f'saldoen er {saldo}')
