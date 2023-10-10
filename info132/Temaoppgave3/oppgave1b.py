@@ -13,4 +13,4 @@ def multiplikasjonstabell(n=int):
         print(f"{i} |",(" ".join(map(str, rad))))
          
 
-multiplikasjonstabell(5)
+multiplikasjonstabell(3)
