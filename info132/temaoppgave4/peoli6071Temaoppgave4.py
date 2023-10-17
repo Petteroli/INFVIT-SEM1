@@ -25,9 +25,8 @@ class Eier:
 bil1 = Bil('Renault', 'Twizy', 2012)
 bil2 = Bil('Porche','Cayenne', 2023)
 eier = Eier('Olof', 'Palmeveien 12')
-eier2 = Eier('Mubutu','Privit Drive 4')
 bil1.eier = eier
-bil2.eier = eier
+
 
 bilpark = [bil1,bil2]
 
