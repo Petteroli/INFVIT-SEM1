@@ -1,0 +1,40 @@
+<?xmlversion="1.0"/>
+<alleSporsmol>
+<forfatter>Petter Aatland Oliversen</forfatter>
+
+  <tall>1</tall>  
+    <sporsmol id="1">Hva er prisen av sokk?</sporsmol1>
+  <tall>2</tall>  
+    <sporsmol id="2">Hva er prisen av sokk2?</sporsmol>
+  <tall>3</tall>  
+    <sporsmol id="3">Hva koster Heisenberg T-skjorten?</sporsmol>
+
+</alleSporsol>
+       
+<Person id="29">
+
+  <navn>
+    <fornavn>Petter</fornavn>
+    <etternavn>Aatland Oliversen</etternavn>
+  </navn>
+  
+  <tilhorighet>
+    <universitet>UIB</universitet>
+  </tilhorighet>
+  
+</Person>
+
+<alleSvar>
+<forfatter>Petter Aatland Oliversen</forfatter>
+  <tall>1</tall>
+  <sporsmol>svar po sporsmol 1 </sporsmol>
+    <svar id="1">prisen av sokk er 20kr</svar>
+  <tall>2</tall>
+  <sporsmol>svar po sporsmol 2 </sporsmol>
+    <svar id="2">prisen av sokk2 er 25kr</svar>
+  <tall>3</tall>
+  <sporsmol>svar po sporsmol 3 </sporsmol>
+    <svar id="3">Heisenberg T-skjorten koster 99$</svar>
+  
+
+</alleSvar>

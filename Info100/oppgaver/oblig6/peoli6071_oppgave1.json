@@ -1,0 +1,44 @@
+{   "allesporsmol": {
+        "sporsmol1": {
+            "id": "1",
+            "sporsmol": "Hva er prisen av sokk?"
+        },
+        "sporsmol2": {
+            "id": "2",
+            "sporsmol": "Hva er prisen av sokk2?"
+        },
+        "sporsmol3": {
+            "id": "3",
+            "sporsmol": "Hva koster Heisenberg T-skjorten?"
+        }
+},
+    "Person": {
+        "id": "29",
+        "navn": {
+            "fornavn": "Petter",
+            "etternavn": "Aatland Oliversen"
+        },
+        "tilhorighet": {
+            "universitet": "UIB"
+        }
+    },
+
+    "alleSvar": {
+        "forfatter": "Petter Aatland Oliversen",
+            "svar1": {
+                "tall": "1",
+                "id": "1",
+                "svar": "prisen av sokk er 20kr"
+            },
+            "svar2": {
+                "tall": "2",
+                "id": "2",
+                "svar": "prisen av sokk2 er 25kr"
+            },
+            "svar3": {
+                "tall": "3",
+                "id": "3",
+                "svar": "Heisenberg T-skjorten koster 99$"
+            }
+    }
+}
