@@ -2,7 +2,7 @@ import pygame as pg
 import pygame.locals as local
 import os
 import math as mp
-
+"test"
 pg.init()
 
 def pathRelToFolder(filePath):
